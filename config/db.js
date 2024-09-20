@@ -4,7 +4,7 @@ require('dotenv').config();
 const connectDB = async () => {
   try {
     await mongoose.connect(process.env.MONGO_URI, {
-      dbName: 'LunaSync',
+      dbName: 'Moe_Bar',
     });
     console.log('Conectado a la base de datos');
   } catch (error) {
